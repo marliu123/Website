@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Personal Portfolio | Marcus</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu ' ></i>
+                </div>
+
+                <div>
+                    <a href="#" class="nav__logo">Marcus</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Introduction</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                    </ul>
+                    <div class="nav__img2">
+                        <span id="hours">00</span>
+                        <span>:</span>
+                        <span id="minutes">00</span>
+                        <span>:</span>
+                        <span id="seconds">00</span>
+                        <span id="session">AM</span>
+                    </div>
+                    <img src="assets/img/mini totor.png" alt = ""  class = "nav__img1">
+
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__data">
+                        <div class="home__img">
+                            <!-- When you change your image it must be of equal measurements (Ejm: 250 x 250), so that it can be centered -->
+                            <img src="assets/img/Marcus.png" alt="">
+                        </div>
+
+                        <h1 class="home__title">Marcus Liu</h1>
+                        <span class="home__profession">Information Systems Major</span>
+
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
+                           
+                        </div>
+                        
+                        <a download="" href="assets/pdf/actual resume (1).docx" class="button home__button">Download Resume</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">Info</span>
+                <h2 class="section-title">Introduction</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <p class="about__text"></p>
+                        <img src="assets/img/white tot.png" alt="" class="about__img">
+                    </div>
+
+                    <div>
+                        <div class="about__information">
+                            <h3 class="about__information-title">Information</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-user about__information-icon'></i>
+                                <span>Marcus Liu</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-phone about__information-icon' ></i>
+                                <span>917-607-2696</span>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-envelope about__information-icon' ></i>
+                                <span>marcus.c.liu@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information">
+                            <h3 class="about__information-title">Experience and support</h3>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-medal about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">2 Years Coding</span>
+                                    <span class="about__information-subtitle-small">Experience</span>
+                                </div>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-briefcase-alt about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">5+ Projects</span>
+                                    <span class="about__information-subtitle-small">Completed</span>
+                                </div>
+                            </div>
+    
+                            <div class="about__information-data">
+                                <i class='bx bx-support about__information-icon' ></i>
+                                <div>
+                                    <span class="about__information-subtitle">Support</span>
+                                    <span class="about__information-subtitle-small">Online 24/7</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Languages</span>
+                <h2 class="section-title">Experience</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Frontend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Html/css</span>
+                            <span class="skills__number">70%</span>
+                            <span class="skills__bar skills__html"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Javascript</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__js"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">React</span>
+                            <span class="skills__number">10%</span>
+                            <span class="skills__bar skills__react"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Swift</span>
+                            <span class="skills__number">10%</span>
+                            <span class="skills__bar skills__swift"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__subtitle">Backend</h3>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Java</span>
+                            <span class="skills__number">80%</span>
+                            <span class="skills__bar skills__java"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Node js</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__node"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">C++</span>
+                            <span class="skills__number">5%</span>
+                            <span class="skills__bar skills__C"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <span class="skills__name">Python</span>
+                            <span class="skills__number">60%</span>
+                            <span class="skills__bar skills__python"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">My Education</h2>
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2020 - 2024</h3>
+                            <span class="education__university">Stony Brook University</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">College</h3>
+                            <span class="education__specialty">Information Systems / Finance</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2016 - 2020</h3>
+                            <span class="education__university">Staten Island Technical Highschool</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">High School </h3>
+                            <span class="education__specialty">Student</span> 
+                        </div>
+                    </div>
+
+                    <div class="education__content">
+                        <div>
+                            <h3 class="education__year">2012 - 2016</h3>
+                            <span class="education__university"> I.S 187</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Middle School </h3>
+                            <span class="education__specialty">Student</span> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <span class="section-subtitle">Fun Facts</span>
+                <h2 class="section-title">About Me</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                        <i class='bx bxs-camera services__icon' ></i>
+                        <h3 class="services__title">Historian</h3>
+                        <p class="services__description">I am the current historian for the Vietnamese Student Association. As the historian, my duties include photographing/recording events, and editing social media posts(facebook, instagram, tiktok, youtube)</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-swim services__icon' ></i>
+                        <h3 class="services__title">Swimming</h3>
+                        <p class="services__description">Back in highschool I was on the varsity swimming team. I mainly swam in the 50 meter freestyle as well as the 50 meter breast stroke races.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-cycling services__icon'></i>
+                        <h3 class="services__title">Working Out</h3>
+                        <p class="services__description">Whenver I have time, I will go to the gym and workout. I enjoy working on my upper body which includes chest, back, shoulders, and biceps. Working out reduces my stress and helps me stay fit.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bx-coffee services__icon' ></i>
+                        <h3 class="services__title">Drinks</h3>
+                        <p class="services__description">I love trying out different types of drinks. My favorite drink is Jasmine bubble tea with herbal jelly. I am currently learning how to make my own drinks so I don't have to spend money on overpriced bubble tea.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bxl-react services__icon'></i>
+                        <h3 class="services__title">Self Learning</h3>
+                        <p class="services__description">Whenever I have free time, I always try to learn something new. As of right now I am learning React to help me improve my web applications. I have a lot of projects that I have in mind. </p>
+                    </div>
+
+                    <div class="services__content">
+                        <i class='bx bxl-spotify services__icon'></i>
+                        <h3 class="services__title">Music</h3>
+                        <p class="services__description">Whether I am working out or studying I will always be listening to music. My music taste varies from time to time. Some of my favorite styles includ RnB, Kpop, Jpop, and Cafe Jazz. </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PROJECT IN MIND =====-->
+            <section class="project section">
+                <div class="project__container bd-grid">
+                    <div class="project__data">
+                        <h2 class="section-title project__title">Inquiries</h2>
+                        <p class="project__description">Please reach out to me if you have any questions!</p>
+                        <a href="#contact" class="button button__light">Contact Me</a>
+                    </div>
+
+                    <img src="assets/img/totoro.png" alt="" class="">
+                </div>
+            </section>
+
+            <!--===== WORKS =====-->
+            <section class="works section" id="works">
+                <span class="section-subtitle">My Portfolio</span>
+                <h2 class="section-title">Recent Works</h2>
+
+                <div class="works__container bd-grid">
+                    <div class="works__img">
+                        <img src="assets/img/work1.jpg" alt="">
+
+                        <div class="works__data">
+                            <!-- Insert your job link into href = "" -->
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 1</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work2.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 2</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work3.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 3</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work4.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 4</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work5.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 5</span>
+                        </div>
+                    </div>
+                    <div class="works__img">
+                        <img src="assets/img/work6.jpg" alt="">
+
+                        <div class="works__data">
+                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Work 6</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact Me</span>
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <input type="text" placeholder="Project" class="contact__input">
+
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                        <input type="submit" value="Send Message" class="button contact__button">
+                    </form>
+
+                    <div class="contact__info">
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Call me</h3>
+                            <span class="contact__text">917-607-2696</span>
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">E-mail</h3>
+                            <span class="contact__text">Marcus.c.liu@gmail.com</span>
+                        </div>
+
+                        <div class="contact__info">
+                            <h3 class="contact__subtitle">Location</h3>
+                            <span class="contact__text">8745 15th Ave</span>
+                            <span class="contact__text">Brooklyn NY</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <h1 class="footer__title"> &lt;/Marcus&gt; </h1>
+                <p class="footer__description">These are my social media handles!</p>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/profile.php?id=100005724015534" target="_blank" class="footer__link"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.instagram.com/marc.is.stoopid/" target="_blank" class="footer__link"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/goodmorning8026" target="_blank" class="footer__link"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://open.spotify.com/playlist/62miXwwPni7LYTwdhfhxhM?si=7c86fd8f2382429a" target="_blank" class="footer__link"><i class='bx bxl-spotify'></i></a>
+                </div>
+                <p class="footer__copy">All right reserved - 2022</p>
+            </div>
+        </footer>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
