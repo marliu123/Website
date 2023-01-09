@@ -65,10 +65,15 @@ function displayTime(){
     }else{
         session.innerHTML = 'AM';
     }
-
+    if(sec < 10){
+        sec = '0' + sec;
+    }
     if(hrs > 12){
         hrs = hrs - 12;
     }
+    if(min < 10){
+        min = '0'+min;
+    } 
 
     document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = min;
