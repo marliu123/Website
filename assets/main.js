@@ -68,6 +68,9 @@ function displayTime(){
     if(sec < 10){
         sec = '0' + sec;
     }
+    if(hrs == 0){
+        hrs = 12;
+    }
     if(hrs > 12){
         hrs = hrs - 12;
     }
