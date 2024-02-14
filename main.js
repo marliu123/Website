@@ -91,11 +91,14 @@ const profilePicture = document.getElementById('profile-picture');
 const bioElement = document.getElementById('bio');
 
 const githubUsername = 'marliu123';
-const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
-// Fetch GitHub profile information through the CORS proxy
-fetch(`${corsProxyUrl}https://api.github.com/users/${githubUsername}`)
-    .then(response => response.json())
+fetch(`https://api.github.com/users/${githubUsername}`)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`GitHub API request failed with status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then(data => {
         // Set profile picture
         profilePicture.src = data.avatar_url;
