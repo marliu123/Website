@@ -83,3 +83,24 @@ function displayTime(){
     document.getElementById('seconds').innerHTML = sec;
 }
 setInterval(displayTime, 10);
+
+/*===================== Github Info ========================*/
+
+
+const profilePicture = document.getElementById('profile-picture');
+const bioElement = document.getElementById('bio');
+
+const githubUsername = 'marliu123';
+
+// Fetch GitHub profile information
+fetch(`https://api.github.com/users/${githubUsername}`)
+    .then(response => response.json())
+    .then(data => {
+        // Set profile picture
+        profilePicture.src = data.avatar_url;
+
+        // Set bio
+        const bio = data.bio || 'No bio available.';
+        bioElement.textContent = bio;
+    })
+    .catch(error => console.error('Error fetching GitHub profile:', error));

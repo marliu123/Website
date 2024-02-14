@@ -50,25 +50,24 @@
         </header>
 
         <main class="l-main">
-            <!--===== HOME =====-->
+                        <!--===== HOME =====-->
             <section class="home" id="home">
                 <div class="home__container bd-grid">
                     <div class="home__data">
                         <div class="home__img">
-                            <!-- When you change your image it must be of equal measurements (Ejm: 250 x 250), so that it can be centered -->
-                            <img src="img/Marcus.png" alt="">
+                            <!-- Profile picture will be loaded here -->
+                            <img id="profile-picture" alt="">
                         </div>
 
                         <h1 class="home__title">Marcus Liu</h1>
-                        <span class="home__profession">Information Systems Major</span>
-
+                        <span class="home__profession">Information Systems/Finance Double Major</span>
+                        <p id="bio" class="home__bio"></p>
                         <div class="home__social">
                             <a href="https://www.linkedin.com/" target="_blank" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
                             <a href="https://github.com/" target="_blank" class="home__social-link"><i class='bx bxl-github'></i></a>
-                           
                         </div>
                         
-                        <a download="" href="actual resume (1).docx" class="button home__button">Download Resume</a>
+                        <a download="" href="RESUME.docx" class="button home__button">Download Resume</a>
                     </div>
                 </div>
             </section>
@@ -103,101 +102,72 @@
                                 <span>marcus.c.liu@gmail.com</span>
                             </div>
                         </div>
-    
-                        <div class="about__information">
-                            <h3 class="about__information-title">Experience and support</h3>
-    
-                            <div class="about__information-data">
-                                <i class='bx bx-medal about__information-icon' ></i>
-                                <div>
-                                    <span class="about__information-subtitle">2 Years Coding</span>
-                                    <span class="about__information-subtitle-small">Experience</span>
-                                </div>
-                            </div>
-    
-                            <div class="about__information-data">
-                                <i class='bx bx-briefcase-alt about__information-icon' ></i>
-                                <div>
-                                    <span class="about__information-subtitle">5+ Projects</span>
-                                    <span class="about__information-subtitle-small">Completed</span>
-                                </div>
-                            </div>
-    
-                            <div class="about__information-data">
-                                <i class='bx bx-support about__information-icon' ></i>
-                                <div>
-                                    <span class="about__information-subtitle">Support</span>
-                                    <span class="about__information-subtitle-small">Online 24/7</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
 
+                       
             <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <span class="section-subtitle">Languages</span>
-                <h2 class="section-title">Experience</h2>
+<section class="skills section" id="skills">
+    <span class="section-subtitle">Skills</span>
+    <h2 class="section-title">Programming and Technical Skills</h2>
 
-                <div class="skills__container bd-grid">
-                    <div class="skills__content">
-                        <h3 class="skills__subtitle">Frontend</h3>
+    <div class="skills__container bd-grid">
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Programming Languages</h3>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Html/css</span>
-                            <span class="skills__number">70%</span>
-                            <span class="skills__bar skills__html"></span>
-                        </div>
+            <ul class="skills__list">
+                <li class="skills__item">Java</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Python</li>
+                <li class="skills__item">R</li>
+                <li class="skills__item">C++</li>
+                <li class="skills__item">Excel VBA</li>
+            </ul>
+        </div>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Javascript</span>
-                            <span class="skills__number">75%</span>
-                            <span class="skills__bar skills__js"></span>
-                        </div>
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Databases</h3>
 
-                        <div class="skills__data">
-                            <span class="skills__name">React</span>
-                            <span class="skills__number">60%</span>
-                            <span class="skills__bar skills__react"></span>
-                        </div>
+            <ul class="skills__list">
+                <li class="skills__item">SQL</li>
+                <li class="skills__item">MS Access</li>
+                <li class="skills__item">Oracle</li>
+                <li class="skills__item">MongoDB</li>
+                <li class="skills__item">PostgreSQL</li>
+            </ul>
+        </div>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Swift</span>
-                            <span class="skills__number">20%</span>
-                            <span class="skills__bar skills__swift"></span>
-                        </div>
-                    </div>
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Frameworks/Libraries</h3>
 
-                    <div class="skills__content">
-                        <h3 class="skills__subtitle">Backend</h3>
+            <ul class="skills__list">
+                <li class="skills__item">React JS</li>
+                <li class="skills__item">Node JS</li>
+                <li class="skills__item">jQuery</li>
+                <li class="skills__item">TypeScript</li>
+                <li class="skills__item">Pandas</li>
+            </ul>
+        </div>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Java</span>
-                            <span class="skills__number">85%</span>
-                            <span class="skills__bar skills__java"></span>
-                        </div>
+        <div class="skills__content">
+            <h3 class="skills__subtitle">Technical</h3>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Node js</span>
-                            <span class="skills__number">60%</span>
-                            <span class="skills__bar skills__node"></span>
-                        </div>
+            <ul class="skills__list">
+                <li class="skills__item">HTML/CSS</li>
+                <li class="skills__item">Office 365</li>
+                <li class="skills__item">AWS</li>
+                <li class="skills__item">Adobe Creative Cloud</li>
+                <li class="skills__item">Blender</li>
+                <li class="skills__item">Slack</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">OneDrive</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-                        <div class="skills__data">
-                            <span class="skills__name">C++</span>
-                            <span class="skills__number">40%</span>
-                            <span class="skills__bar skills__C"></span>
-                        </div>
 
-                        <div class="skills__data">
-                            <span class="skills__name">Python</span>
-                            <span class="skills__number">75%</span>
-                            <span class="skills__bar skills__python"></span>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section class="ghibli" id="ghibli"></section>
                 <span class="section-subtitle"></span>
@@ -266,6 +236,22 @@
                 <div class="education__container bd-grid">
                     <div class="education__content">
                         <div>
+                            <h3 class="education__year">2024</h3>
+                            <span class="education__university">Cook Systems</span>
+                        </div>
+
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education__race">Fast Track Program </h3>
+                            <span class="education__specialty">Student</span> 
+                        </div>
+                    </div>
+                    <div class="education__content">
+                        <div>
                             <h3 class="education__year">2020 - 2024</h3>
                             <span class="education__university">Stony Brook University</span>
                         </div>
@@ -294,23 +280,6 @@
 
                         <div>
                             <h3 class="education__race">High School </h3>
-                            <span class="education__specialty">Student</span> 
-                        </div>
-                    </div>
-
-                    <div class="education__content">
-                        <div>
-                            <h3 class="education__year">2012 - 2016</h3>
-                            <span class="education__university"> I.S 187</span>
-                        </div>
-
-                        <div class="education__time">
-                            <span class="education__rounder"></span>
-                            <span class="education__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 class="education__race">Middle School </h3>
                             <span class="education__specialty">Student</span> 
                         </div>
                     </div>
@@ -385,48 +354,48 @@
 
                         <div class="works__data">
                             <!-- Insert your job link into href = "" -->
-                            <a href="https://github.com/marliu123/cardgame-tracker" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Card Game Tracker</span>
+                            <a href="https://github.com/marliu123/Song-Stats" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Spotify Stats</span>
                         </div>
                     </div>
                     <div class="works__img">
                         <img src="img/work2.jpg" alt="">
 
                         <div class="works__data">
-                            <a href="https://github.com/marliu123/schedule.io" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Schedule.io</span>
+                            <a href="https://github.com/marliu123/quizAI.git" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Quiz AI</span>
                         </div>
                     </div>
                     <div class="works__img">
                         <img src="img/work3.jpg" alt="">
 
                         <div class="works__data">
-                            <a href="https://github.com/marliu123/Autofill-extension" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Autofill Extension</span>
+                            <a href="https://github.com/marliu123/DiscordBot" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Discord Bot</span>
                         </div>
                     </div>
                     <div class="works__img">
                         <img src="img/work4.jpg" alt="">
 
                         <div class="works__data">
-                            <a href="#" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Social Media Blocker</span>
+                            <a href="https://github.com/marliu123/Calculator.git" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Calculator</span>
                         </div>
                     </div>
                     <div class="works__img">
                         <img src="img/work5.jpg" alt="">
 
                         <div class="works__data">
-                            <a href="https://github.com/marliu123/Stats-checker-for-TFT" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Stats Checker for TFT</span>
+                            <a href="https://github.com/marliu123/spring-assignment" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Mock Twitter Application</span>
                         </div>
                     </div>
                     <div class="works__img">
                         <img src="img/work6.jpg" alt="">
 
                         <div class="works__data">
-                            <a href="https://github.com/marliu123/deepwoken_calc" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
-                            <span class="works__title">Deep Woken Calculator</span>
+                            <a href="https://github.com/marliu123/sportsdata.git" target="_blank" class="works__link"><i class='bx bx-link-alt' ></i></a>
+                            <span class="works__title">Player Stats</span>
                         </div>
                     </div>
                 </div>
@@ -464,7 +433,6 @@
 
                         <div class="contact__info">
                             <h3 class="contact__subtitle">Location</h3>
-                            <span class="contact__text">8745 15th Ave</span>
                             <span class="contact__text">Brooklyn NY</span>
                         </div>
                     </div>
