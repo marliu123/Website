@@ -91,9 +91,10 @@ const profilePicture = document.getElementById('profile-picture');
 const bioElement = document.getElementById('bio');
 
 const githubUsername = 'marliu123';
+const corsProxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
-// Fetch GitHub profile information
-fetch(`https://api.github.com/users/${githubUsername}`)
+// Fetch GitHub profile information through the CORS proxy
+fetch(`${corsProxyUrl}https://api.github.com/users/${githubUsername}`)
     .then(response => response.json())
     .then(data => {
         // Set profile picture
